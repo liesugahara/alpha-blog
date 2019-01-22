@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Contact Me</title>
+  </head>
+  <body>
+    <h3>Contact Information</h3>
+    <p>Lie Sugahara López</p>
+    <p><img src="/images/email.png" alt="Email: " height="25">lie.sugahara@gmail.com</p>
+    <p><img src="/images/mob.png" alt="Mobile phone: " height="20"> +57 3178958193</p>
+    <p><img src="/images/twitter.png" alt="Twitter: " height="20"> liesugahara</p>
+    <p><img src="/images/instagram.png" alt="Instagram: " height="20"> liesugahara</p>
+    <hr>
+    <form action="mailto:lie.sugahara@gmail.com" method="post" enctype="text/plain">
+      <label>Your Name:</label>
+      <input type="text" name="yourName" value=""> <br>
+      <label>Your Email:</label>
+      <input type="email" name="yourEmail" value=""> <br>
+      <label>Your Message:</label> <br>
+      <textarea name="yourMessage" rows="10" cols="30"></textarea> <br>
+      <input type="submit" name="">
+    </form>
+    <%= link_to 'Homepage', root_path %>
+  </body>
+</html>

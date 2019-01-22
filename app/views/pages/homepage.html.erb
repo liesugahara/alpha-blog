@@ -1,0 +1,133 @@
+
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+  <meta charset="utf-8"> <!-- se puede usar unicode/ maxima compatibilidad-->
+  <title>Sitio Personal de Lie</title>
+</head>
+
+<body>
+  <table cellspacing = "20" >
+    <tr>
+      <td><%= image_tag("/images/image.jpg", size: "200x200")%></td>
+      <td><h1>Lie Sugahara</h1>
+      <p><em>Ingeniera electrónica de la <a href="https://www.uninorte.edu.co/">Universidad del Norte.</a></em></p>
+      <p>Ingeniera Electrónica con conocimientos en electrónica analógica, digital, instrumentación, procesamiento de señales, redes, programación de nivel medio, MySQL y AWS. Capacidad de argumentación crítica, trabajo en equipo y comunicaciones asertivas. Habilidad para programar en Matlab, Java, Arduino, HTML y Android Studio. Miembro activo del capítulo estudiantil de robótica y automatización de la rama IEEE Uninorte.</p></td>
+    </tr>
+  </table>
+
+  <hr>
+  <h3>Educación</h3>
+  <ul>
+    <li>
+      Bachillerato <br>
+      ASPAEN Gimnasio Cartagena de Indias <br>
+      Cartagena, Bolívar, Colombia <br>
+      08/2007 – 06/2013
+    </li>
+    <br>
+    <li>
+      Ingeniería electrónica <br>
+      Universidad del Norte <br>
+      Barranquilla, Atlántico, Colombia <br>
+      07/2013 – Actual
+    </li>
+  </ul>
+  <hr>
+  <h3>Formación Complementaria</h3>
+  <table cellspacing = "10">
+    <thead>
+      <tr>
+        <th>Fecha</th>
+        <th>Descripción</th>
+      </tr>
+    </thead>
+
+    <tr>
+      <td>26/04/2018</td>
+      <td><p>Bootcamp: "Ethical Hacking" <br> Hacker Girls (MinTIC) <br> Barranquilla, Atlántico, Colombia</p> </td>
+    </tr>
+
+    <tr>
+      <td>01/2018 – 06/2018</td>
+      <td><p>CCNA1 Routing and Switching <br> Cisco <br> Barranquilla, Atlántico, Colombia</p></td>
+    </tr>
+
+    <tr>
+      <td>07/2017 – 11/2017</td>
+      <td><p>Introduction to cybersecurity <br> Cisco <br> Barranquilla, Atlántico, Colombia</p></td>
+    </tr>
+
+    <tr>
+      <td>07/2017 – 11/2017</td>
+      <td><p>Introduction to IoT <br> Cisco <br> Barranquilla, Atlántico, Colombia </p></td>
+    </tr>
+
+    <tr>
+      <td>07/2017 – 11/2017</td>
+      <td><p>NDG Linux Essentials <br> Cisco <br> Barranquilla, Atlántico, Colombia</p> </td>
+    </tr>
+
+    <tr>
+      <td>01/07/2017</td>
+      <td><p>Taller de programación con Django Girls Taller <br> Django Girls <br> Barranquilla, Atlántico, Colombia</p>
+      </td>
+    </tr>
+  </table>
+  <hr>
+
+<h3>Herramientas tecnológicas</h3>
+<table cellspacing = "10">
+
+  <tr>
+    <td>C++</td>
+    <td>⭐⭐⭐</td>
+  </tr>
+
+    <tr>
+    <td>HTML</td>
+    <td>⭐⭐⭐⭐</td>
+  </tr>
+
+  <tr>
+    <td>Matlab</td>
+    <td>⭐⭐⭐⭐⭐</td>
+  </tr>
+
+  <tr>
+    <td>MS Office</td>
+    <td>⭐⭐⭐⭐⭐</td>
+  </tr>
+
+  <tr>
+    <td>MS Project</td>
+    <td>⭐⭐⭐⭐</td>
+  </tr>
+
+   <tr>
+    <td>MySQL</td>
+    <td>⭐⭐⭐⭐</td>
+  </tr>
+
+  <tr>
+    <td>Python</td>
+    <td>⭐⭐⭐⭐⭐</td>
+  </tr>
+
+  <tr>
+    <td>Ruby</td>
+    <td>⭐⭐⭐⭐</td>
+  </tr>
+
+
+</table>
+
+<hr>
+<%= link_to 'Hobbies', hobbies_path %>
+<br>
+<%= link_to 'Contact Me', about_path %>
+
+</body>
+
+</html>
