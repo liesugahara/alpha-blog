@@ -88,6 +88,7 @@ padding-bottom: 15px;
 
 .articletitle{
   color: #66bfbf;
+
 }
 
 
@@ -97,6 +98,23 @@ footer{
   border-top: 1px solid #eaeaea;
   color: #777;
 }
+.rTable {
+  	display: table;
+  	width: auto;
+}
+
+.rTableRow {
+  display: table-row;
+}
+
+.rTableCell {
+  	display: table-cell;
+  	padding: 10px;
+    height: auto;
+    align-items: baseline;
+    vertical-align: top;
+}
+
 
 footer:hover{
   color: #222;
