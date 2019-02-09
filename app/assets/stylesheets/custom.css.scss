@@ -70,6 +70,23 @@ $navbar-default-bg: #66bfbf;
   font-size: 1.5em;
 }
 
+.article-title{
+  color: #66bfbf;
+}
+
+.article-title:link {
+  color: #66bfbf;
+}
+.article-title:visited {
+  color: #66bfbf;
+}
+.article-title:hover {
+  color: #66bfbf;
+}
+.article-title:active {
+  color: #66bfbf;
+}
+
 
 .article-body{
 border-top: 1px solid #eaeaea;
@@ -86,11 +103,29 @@ padding-bottom: 15px;
   color: #66bfbf;
 }
 
-.articletitle{
+.articletitle {
   color: #66bfbf;
-
 }
 
+.well{
+  background-color: #eaf6f6;
+}
+
+.well a {
+  color: #66bfbf;
+}
+
+.well a:hover {
+  color: #f76b8a;
+}
+
+a {
+  color: #66bfbf;
+}
+
+a:hover {
+  color: #f76b8a;
+}
 
 footer{
   margin-top: 45px;
