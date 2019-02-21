@@ -119,6 +119,10 @@ padding-bottom: 15px;
 //   color: #f76b8a;
 // }
 
+.input_checkbox input {
+  width: auto !important;
+}
+
 footer{
   margin-top: 45px;
   padding-top: 5px;
@@ -142,6 +146,13 @@ footer{
     vertical-align: top;
 }
 
+.badge {
+  background-color: #CEF6F5;
+  text-transform: uppercase;
+  letter-spacing: -1px;
+  font-weight: bold;
+
+}
 
 footer:hover{
   color: #222;
